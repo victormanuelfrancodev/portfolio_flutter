@@ -13,4 +13,5 @@ jobs:
       uses: SpicyPizza/create-envfile@v1
       with:
         GIT: ${{ secrets.GIT_TOKEN }}
+        directory: assets/
         file_name: .env
